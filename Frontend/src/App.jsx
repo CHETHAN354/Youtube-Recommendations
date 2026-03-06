@@ -9,7 +9,7 @@ function App() {
 
   const getVideo = async () => {
     try {
-      const res = await axios.post("http://localhost:5001/mood", {
+      const res = await axios.post("https://youtube-recommendations-acg0.onrender.com/mood", {
         text: text
       });
 
